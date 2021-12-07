@@ -1,0 +1,158 @@
+
+img {
+    border-radius: 60px 60px 0 0;
+    max-width: 100%;
+}
+
+a:hover {
+    color:#77700a;
+}
+
+a:checked {
+    color: white;
+}
+a:active {
+    color:thistle
+}
+
+button {
+    background-color: blue;
+    color: cornsilk;
+    padding: 10px 25px 10px 25px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+button:hover {
+    color:rgb(8, 6, 85);
+    background-color: rgb(50, 196, 45);
+}
+
+.header {
+    background: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
+    flex-flow: wrap;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 22px;
+    display: flex;
+    gap: 80px;
+    background-color:cornflowerblue;
+    padding: 10px 50px 10px 50px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+.nuts {
+    background: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+
+.nuts h1 {
+    font-weight: bold;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.nuts p {
+    color: #e5e7eb;
+    font-size: 20px;
+
+}
+
+.para {
+   max-width: 30%;
+   padding-left: 10px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.photos {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 15px;  
+     
+}
+
+.photo {
+     padding: 4px;
+     border-right: 5px solid blue;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     
+}
+
+.quote {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:10px;
+}
+.quotepara {
+    width: 700px;
+    padding-top: 20px;
+    max-width: fit-content;
+}
+
+.quotename {
+    align-self:flex-end;
+    width: 400px;
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+}
+
+.sign  {
+    background-color:lightskyblue;
+    margin: 50px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:30px;
+    padding-bottom: 10px;
+}
+
+.signparagraph {
+    flex: 0 1 600px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.footer {
+    background: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:lime;
+}
+.border {
+    border-left:5px solid blue;
+}
